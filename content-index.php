@@ -36,34 +36,34 @@
             <div class="container-fluid prl-0">
 
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6">
-                            <div class="who-img-box who-iam-img"></div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 ">
-                            <div class="content-box">
-                                <div class="sec-title">
-                                    <h1 class="white">who i am</h1>
-                                </div>
-                                <br>
-                                <h5 class="white">A freelance beautician specializing in makeup, hairstyles, and beauty
-                                    treatments.</h5>
-                                <br>
-                                <p class="white">
-                                    Welcome to Sadhvi Makeover Artistry! I am a professional freelance beautician
-                                    offering comprehensive beauty services including traditional, HD, and airbrush
-                                    makeup, hairstyles, nail art, threading, waxing, hair spa, facials, bridal mehandi,
-                                    saree draping, and flower making. I bring all my services directly to your location
-                                    for your convenience.
-                                </p>
-                                <br>
-                                <a href="services" class="theme-btn-white-border btn-md">read more</a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-6 col-md-6">
+                                <div class="who-img-box who-iam-img"></div>
+                            </div>
+                            <div class="col-xl-6 col-md-6 ">
+                                <div class="content-box">
+                                    <div class="sec-title">
+                                        <h1 class="white">who i am</h1>
+                                    </div>
+                                    <br>
+                                    <h5 class="white">
+                                        Hi, I'm Saranya Prabhu — a freelance beautician specialized in makeup, hairstyles, and personalized beauty treatments.
+                                    </h5>
+                                    <br>
+                                    <p class="white">
+                                        Welcome to Sadhvi Makeover Artistry! I offer professional on-location beauty services including Traditional Makeup, HD Makeup, Airbrush Makeup, Hairstyles, Manicure and Pedicure, Threading, Waxing, Scalp Massage, Dandruff Treatment, Hair Spa, Nail Art, and Nail Extensions.
 
+                                    </p>
+
+                                    <br>
+                                    <a href="services" class="theme-btn-white-border btn-md">read more</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="why-choose section-padding pb-0">
