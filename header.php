@@ -41,7 +41,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li><a class="nav-link" href="index">home</a></li>
+                            <li><a class="nav-link" href="index">Home</a></li>
                             <!-- <li><a class="nav-link" href="about.html">About</a></li> -->
                             <li><a class="nav-link" href="services">Services</a></li>
                             <li><a class="nav-link" href="contact-us">CONTACT</a></li>
@@ -57,12 +57,14 @@
     </header>
     <!-- Start mobile menu -->
     <header class="d-lg-none" style="display: block;">
-        <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
-        <ul class="mobile_menu mobile_menu--force" style="display: block;">
-            <li><a href="index">Home</a></li>
-            <li><a href="services">Service</a></li>
-            <li><a href="contact-us">contact</a></li>
-        </ul>
+        <div class="mobile-header-bar">
+            <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
+            <ul class="mobile_menu">
+                <li><a href="index">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact-us">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <!-- End mobile Menu -->
     <!--================Header Area End =================-->

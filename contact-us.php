@@ -77,12 +77,14 @@
         </div>
     </header>
     <header class="d-lg-none" style="display: block;">
-        <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
-        <ul class="mobile_menu mobile_menu--force" style="display: block;">
-            <li><a href="index">Home</a></li>
-            <li><a href="services">Service</a></li>
-            <li><a href="contact-us">contact</a></li>
-        </ul>
+        <div class="mobile-header-bar">
+            <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
+            <ul class="mobile_menu">
+                <li><a href="index">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="contact-us">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <!--================Header Area End =================-->

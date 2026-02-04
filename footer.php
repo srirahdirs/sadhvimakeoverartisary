@@ -102,9 +102,16 @@
             document.querySelectorAll('.mobile-menu-toggle').forEach(function (btn) {
                 btn.addEventListener('click', function (e) {
                     e.preventDefault();
-                    var menu = btn.parentElement.querySelector('.mobile_menu');
-                    if (!menu) return;
-                    menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+                    var header = btn.closest('header');
+                    if (!header) return;
+                    header.classList.toggle('mobile-open');
+                });
+            });
+
+            document.querySelectorAll('header.d-lg-none .mobile_menu a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    var header = link.closest('header');
+                    if (header) header.classList.remove('mobile-open');
                 });
             });
 

@@ -52,8 +52,8 @@
                     <div class="image-box img-hover-zoom--zoom-n-pan-v">
                         <img src="img/service/hd_makeup.jpg" alt="HD Makeup">
                         <div class="text">
-                            <h2 class="color-black">HD Makeup</h2>
-                            <a href="contact-us" class="theme-btn-white-border btn-md color-black">Book now</a>
+                            <h2 class="">HD Makeup</h2>
+                            <a href="contact-us" class="theme-btn-white-border btn-md">Book now</a>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 mt-30">
                     <div class="image-box img-hover-zoom--zoom-n-pan-v">
-                        <img src="img/service/hair_style.jpg" alt="Hairstyles" height="739px">
+                        <img src="img/service/hair_style.jpg" alt="Hairstyles" height="739px" id="height_739">
                         <div class="text">
                             <h2>Hairstyles</h2>
                             <a href="contact-us" class="theme-btn-white-border btn-md">Book now</a>

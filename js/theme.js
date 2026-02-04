@@ -3,8 +3,12 @@
     "use strict";
 
     var navbar = $('.header-menu, .middle_menu_area, .header_white_menu');
+    var nav_offset_top = 0;
 
-    var nav_offset_top = $('.header-menu, .middle_menu_area, .header_white_menu').offset().top + 60;
+    if (navbar.length) {
+        nav_offset_top = navbar.offset().top + 60;
+    }
+    // var nav_offset_top = $('.header-menu, .middle_menu_area, .header_white_menu').offset().top + 60;
 
     /*-------------------------------------------------------------------------------
 
@@ -963,11 +967,24 @@ jQuery(document).ready(function () {
 
 
 //fixed header on scroll js Start
-$(window).scroll(function () {
-    if ($(window).scrollTop() >= 160) {
+function toggleHeadersOnScroll() {
+    var currentScrollTop = $(window).scrollTop();
+    var isScrolledPast = currentScrollTop >= 160;
+
+    if (isScrolledPast) {
         $('.main-header').addClass('scroll-header animated slideInDown');
     } else {
         $('.main-header').removeClass('scroll-header animated slideInDown');
     }
+}
+
+$(window).scroll(toggleHeadersOnScroll);
+$(document).ready(toggleHeadersOnScroll);
+//fixed header on scroll js End
+
+// mobile menu toggle
+$(document).ready(function () {
+    $('.mobile-menu-toggle').on('click', function () {
+        $('header.d-lg-none').toggleClass('mobile-open');
+    });
 });
-    //fixed header on scroll js End
