@@ -9,7 +9,8 @@
     <meta name="author" content="Sadhvi Makeover Artistry">
     <meta name="google-site-verification" content="GgMkR-7_iR6RWJlMrTHWfMHV1q_cZYj6XlyBbAIxI_8">
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <link rel="icon" href="/img/fav-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/img/fav-icon.png">
     <title><?php echo isset($page_title) ? htmlspecialchars($page_title) : 'Sadhvi Makeover Artistry'; ?></title>
     <meta property="og:title" content="<?php echo isset($page_title) ? htmlspecialchars($page_title) : 'Sadhvi Makeover Artistry'; ?>">
     <meta property="og:description" content="Freelance beautician services in Coimbatore, Tamil Nadu, Erode, Salem, Tirupur. Bridal makeup, HD makeup, mehandi, hair styling, hair spa, facial, nail art, saree draping.">

@@ -12,7 +12,8 @@
     <meta name="keywords" content="Coimbatore beautician, Tamil Nadu makeup artist, Erode beautician, Salem makeup artist, Tirupur beautician, bridal makeup, marriage makeup, wedding makeup artist, marriage beautician Coimbatore, bridal makeup Coimbatore, wedding beautician, HD makeup, mehandi, hair styling, hair spa, facial, nail art, saree draping, contact beautician">
     <meta name="author" content="Sadhvi Makeover Artistry">
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
+    <link rel="icon" href="/img/fav-icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/img/fav-icon.png">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Contact – Sadhvi Makeover Artistry</title>
     <meta property="og:title" content="Contact – Sadhvi Makeover Artistry">
