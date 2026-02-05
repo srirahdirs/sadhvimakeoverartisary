@@ -62,7 +62,9 @@
                         <ul class="navbar-nav">
                             <li><a class="nav-link" href="index">home</a></li>
                             <!-- <li><a class="nav-link" href="about.html">About</a></li> -->
+                            <li><a class="nav-link" href="about">About</a></li>
                             <li><a class="nav-link" href="services">Service</a></li>
+                            <li><a class="nav-link" href="gallery">Gallery</a></li>
                             <li><a class="nav-link" href="contact-us">CONTACT</a></li>
                         </ul>
                         <div class="tel-info">
@@ -81,7 +83,9 @@
             <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
             <ul class="mobile_menu">
                 <li><a href="index">Home</a></li>
+                <li><a href="about">About</a></li>
                 <li><a href="services">Services</a></li>
+                <li><a href="gallery">Gallery</a></li>
                 <li><a href="contact-us">Contact</a></li>
             </ul>
         </div>

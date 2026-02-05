@@ -24,6 +24,11 @@
     <link rel="stylesheet" href="css/plugins.css" />
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <?php if (isset($page_css)): ?>
+        <?php foreach ((array) $page_css as $css_path): ?>
+            <link href="<?php echo htmlspecialchars($css_path); ?>" rel="stylesheet">
+        <?php endforeach; ?>
+    <?php endif; ?>
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -43,8 +48,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li><a class="nav-link" href="index">Home</a></li>
+                            <li><a class="nav-link" href="about">About</a></li>
                             <!-- <li><a class="nav-link" href="about.html">About</a></li> -->
                             <li><a class="nav-link" href="services">Services</a></li>
+                            <li><a class="nav-link" href="gallery">Gallery</a></li>
                             <li><a class="nav-link" href="contact-us">CONTACT</a></li>
                         </ul>
                         <div class="tel-info">
@@ -62,7 +69,9 @@
             <div class="logo-port"><a href="index"><img src="img/logo.png" alt="logo-mobile"></a></div>
             <ul class="mobile_menu">
                 <li><a href="index">Home</a></li>
+                <li><a href="about">About</a></li>
                 <li><a href="services">Services</a></li>
+                <li><a href="gallery">Gallery</a></li>
                 <li><a href="contact-us">Contact</a></li>
             </ul>
         </div>
